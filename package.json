@@ -1,0 +1,26 @@
+{
+  "name": "apimysqlnode",
+  "version": "1.0.0",
+  "description": "exemplo de api node com mysql",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.13",
+    "@types/mysql": "^2.15.21",
+    "@types/node": "^17.0.23",
+    "typescript": "^4.6.3"
+  }
+}
